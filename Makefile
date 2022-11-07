@@ -4,6 +4,9 @@ install: #  установка модулей
 brain-games:  # запуск
 	node bin/brain-games.js
 
+brain-even:  # запуск
+	node bin/brain-even.js
+
 publish: #  публикация
 	npm publish --dry-run
 
